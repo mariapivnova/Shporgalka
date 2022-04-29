@@ -25,7 +25,7 @@ public class DetailActivity extends AppCompatActivity {
         Intent intent = getIntent();
         //получаем строку и формируем имя ресурса
         String resName = " n" + intent.getIntExtra("title", 0);
-        Log.i("name", resName);
+        Log.i("name ", resName);
         Context context = getBaseContext(); //получаем контекст
 
         //читаем текстовый файл из ресурсов по имени
